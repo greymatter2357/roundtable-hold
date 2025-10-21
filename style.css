@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Monoco, sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Header and Hero Area's CSS */
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px blanchedalmond;
+}
+
+.sub-hero-text {
+    font-size: 18px;
+}
+
+button.rest {
+    cursor: pointer;
+    width: 80px;
+    border: 2px;
+    border-style: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8px;
+    background-color: blanchedalmond;
+    color: #5A321A;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.header a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 18px;
+}
+
+.hero-area img {
+    border-radius: 16px;
+    border: 2px solid blanchedalmond;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #1f2937; */
+    background-color: #5A321A;
+    padding-bottom: 100px;
+}
+
+.upper .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin-bottom: 50px;
+
+}
+
+.hero-area {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-area .text {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: blanchedalmond;
+}
+
+/* The NPC Area's CSS */
+
+.npc-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 100px;
+    background-color: blanchedalmond;
+}
+
+.npcs {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.npcs .npc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.npcs .desc, .name {
+    width: 150px;
+    text-align: center;
+    color: #5A321A;
+}
+
+.npcs .desc {
+    margin-top: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.npc-tab .info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #5A321A;
+}
+
+.npc img {
+    border: 5px solid #5A321A ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* The quote area's CSS */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+    background-color: #5A321A;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    /* font-weight: 300; */
+    width: 800px; 
+    color: blanchedalmond;
+    text-shadow: 2px 2px 5px blanchedalmond;
+}
+
+.quote-section .salutation {
+    font-weight:bold;
+    width: 800px; 
+    margin-left: 250px;
+    color: blanchedalmond;
+}
+
+
+.rememberance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: blanchedalmond;
+    gap: 20px;
+
+}
+
+.rememberance .text {
+    font-size: 36px;
+    width: 1000px;
+    color: #5A321A;
+    font-weight: bold;
+}
+
+.rememberance .exchange{
+    display: flex;
+    flex-direction: column;
+}
+
+.rememberance .exchange button {
+        width: auto;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #5A321A;
+    color:blanchedalmond;
+    padding: 5px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #5A321A;
+    color:blanchedalmond;
+    font-size: 14px;
+}
